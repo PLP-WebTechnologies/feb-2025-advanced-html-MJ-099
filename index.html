@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Html list, Image, Tables forms and input types</title>
+    </head>
+    <body>
+        <h1>Html List</h1>
+        <h3>Ordered List</h3>
+        <ol type="i">
+            <li>Simon Peter</li>
+            <li>John</li>
+            <li>Jams</li>
+            <li>Andrew</li>
+            <li>Thomas</li>
+        </ol>
+         
+            <h1>HTML Images</h1>
+            <img src="car.jpg" width="350" height="250">
+            <h1>HTML Tables</h1>
+            <table border="1">
+            <thead>
+                <tr>
+                <th>Name</th>
+                <th>Address</th>
+                <th>Mobile</th>
+                <th>Email</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td> Declan Rice</td>
+                    <td>6968-00100</td>
+                    <td>0775670056</td>
+                    <td>declanrice@gmail.com</td>
+                </tr>
+                <tr>
+                    <td>Dennis Myles</td>
+                    <td>6807-00100</td>
+                    <td>0723546778</td>
+                    <td>dennismyles@gmail.com</td>
+                </tr>
+               <tr>
+                <td>Michael johnson</td>
+                <td>6578-00100</td>
+                <td>0756788901</td>
+                <td>michaeljohnson@gmail.com</td>
+               </tr>
+                <tr>
+                    <td>Joan Anyango</td>
+                    <td>8900-00100</td>
+                    <td>0189995644</td>
+                    <td>joananyango@gmail.com</td>
+                </tr>
+                <tr>
+                    <td>kingston Ngugi</td> 
+                    <td>7707-00100</td>
+                    <td>0733789911</td>
+                    <td>kingstonngugi@gmail.com</td>
+                </tr>
+            </tbody>
+            <tfoot>
+            <tr>
+                <th>Name</th>
+                <th>Add</th>
+                <th>Phone Number</th>
+                <th>Email</th>
+            </tr>
+            </tfoot>
+        </table>  
+        <h1>HTML Forms</h1>
+        <form action="" method="">
+            <label for="name">Name</label>
+            <input type="text" id="student_name" name="student_name" placeholder="Enter your full name" required>
+            <br><br>
+            <label for="email">Email</label>
+            <input type="text" id="student_email" name="email" required>
+            <br><br>
+            <label for="password">Password</label>
+            <input type="text" id="password" required>
+            <br><br>
+            <label for="date of birth"Date of Birth></label>
+            <input type="date" id="dob" name="dob" required>
+            <br><br>
+            <label for="county">County</label>
+            <select name="county" id="county">
+                <option>Select County</option>
+                <option value="nairobi">Nairobi</option>
+                <option value="mombasa">Mombasa</option>
+                <option value="nakuru">Nakuru</option>
+                <option value="kiambu">Kiambu</option>
+                <option value="mandera">Mandera</option>
+                <option value="vihiga">Vihiga</option>
+            </select>
+            <br><br>
+            <label for="gender">Gender</label>
+            <input type="radio" id="gender" name="gender" value="male">Male
+            <input type="radio" id="gender" name="gender" value="female">Female
+            <br><br>
+            <label for="sports">Sports</label>
+            <input type="checkbox" name="sports" value="football">Football
+            <input type="checkbox" name="sports" value="basketball">Basketball
+            <input type="checkbox" name="sports" value="swimming">Swimming
+            <input type="checkbox" name="sports" value="volleyball">volleyball
+            <input type="checkbox" name="sports" value="badminton">Badminton
+            <br><br>
+            <button>Register</button>
+            <input type="button" value="cancel">
+        </form>
+    </body>
+</html>
